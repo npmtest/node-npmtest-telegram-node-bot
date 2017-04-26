@@ -1,6 +1,6 @@
 # npmtest-telegram-node-bot
 
-#### test coverage for  [telegram-node-bot (v4.0.5)](https://github.com/Naltox/telegram-node-bot)  [![npm package](https://img.shields.io/npm/v/npmtest-telegram-node-bot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-telegram-node-bot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-telegram-node-bot.svg)](https://travis-ci.org/npmtest/node-npmtest-telegram-node-bot)
+#### basic test coverage for  [telegram-node-bot (v4.0.5)](https://github.com/Naltox/telegram-node-bot)  [![npm package](https://img.shields.io/npm/v/npmtest-telegram-node-bot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-telegram-node-bot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-telegram-node-bot.svg)](https://travis-ci.org/npmtest/node-npmtest-telegram-node-bot)
 
 #### Module for creating Telegram bots.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-telegram-node-bot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-telegram-node-bot/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-telegram-node-bot/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-telegram-node-bot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-telegram-node-bot/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-telegram-node-bot/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-telegram-node-bot/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
         "prepublish": "node api-scheme/GenerateTGModels.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "4.0.5"
+    "version": "4.0.5",
+    "bin": {}
 }
 ```
 
